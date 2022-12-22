@@ -8,7 +8,7 @@ const Header = () => {
         <a href="index.html" className="nav__logo">
           Lavro
         </a>
-        <div className="nav-menu">
+        <div className="nav__menu">
           <ul className="nav__list grid">
             <li className="nav__item">
               <a href="#home" className="nav__link active-link">
