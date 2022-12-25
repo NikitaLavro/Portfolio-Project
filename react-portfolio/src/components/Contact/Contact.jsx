@@ -1,5 +1,8 @@
 import React from "react";
 
+//CSS
+import "./Contact.css";
+
 const Contact = () => {
   return (
     <section className="contact section" id="contact">
@@ -8,36 +11,23 @@ const Contact = () => {
 
       <div className="contact__container container grid">
         <div className="contact__content">
-          <h3 className="contact__title">Talk to me</h3>
           <div className="contact__info">
             <div className="contact__card">
-              <i className="bx bx contact__card-icon"></i>
+              <i className="bx bx-mail-send contact__card-icon"></i>
               <h3 className="contact__card-title">Email</h3>
               <span className="contact__card-data">
                 lavro.nikita123@gmail.com
               </span>
-              <a href="" className="contact__button">
-                Write me{" "}
-                <i className="bx bx-right-arrow-alt contact__button-icon"></i>
-              </a>
             </div>
             <div className="contact__card">
-              <i className="bx bx contact__card-icon"></i>
+              <i className="bx bxl-telegram contact__card-icon"></i>
               <h3 className="contact__card-title">Telegram</h3>
               <span className="contact__card-data">@nikitalavro1</span>
-              <a href="" className="contact__button">
-                Write me{" "}
-                <i className="bx bx-right-arrow-alt contact__button-icon"></i>
-              </a>
             </div>
             <div className="contact__card">
-              <i className="bx bx contact__card-icon"></i>
+              <i className="bx bxs-phone-call contact__card-icon"></i>
               <h3 className="contact__card-title">Phone</h3>
               <span className="contact__card-data"> +380(99)-546-72-39</span>
-              <a href="" className="contact__button">
-                Write me{" "}
-                <i className="bx bx-right-arrow-alt contact__button-icon"></i>
-              </a>
             </div>
           </div>
         </div>
