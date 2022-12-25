@@ -38,14 +38,14 @@
 
 @keyframes home__hand--animation {
   0% {
-    transform: rotate(45deg);
+    transform: rotate(35deg);
   }
 
   50% {
-    transform: rotate(-45deg);
+    transform: rotate(-35deg);
   }
   100% {
-    transform: rotate(45deg);
+    transform: rotate(35deg);
   }
 }
 
