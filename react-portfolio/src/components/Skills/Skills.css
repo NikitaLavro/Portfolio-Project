@@ -58,3 +58,13 @@
     row-gap: 2rem;
   }
 }
+
+@media screen and (max-width: 576px) {
+  .skills__container {
+    grid-template-columns: 1fr;
+  }
+
+  .skills__content {
+    padding: 1.5rem;
+  }
+}
