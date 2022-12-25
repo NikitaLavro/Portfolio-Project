@@ -1,6 +1,5 @@
 .contact__info {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  display: flex;
   justify-content: center;
   gap: 2rem;
 }
@@ -11,9 +10,25 @@
   padding: 0.5rem;
   border-radius: 0.75rem;
   text-align: center;
+  flex-grow: 1;
 }
 
 .contact__card-icon {
   font-size: 1.5rem;
   color: var(--title-color);
+}
+
+@media screen and (max-width: 576px) {
+  .contact__info {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact__card {
+    width: 70%;
+  }
+
+  .contact__card-data {
+    overflow-wrap: break-word;
+  }
 }
