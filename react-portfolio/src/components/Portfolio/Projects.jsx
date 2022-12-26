@@ -26,7 +26,7 @@ const projectsData = [
 
 const Projects = () => {
   return (
-    <div className="project__container container grid">
+    <div className="project__container container">
       {projectsData.map((item) => (
         <div className="project__card" key={item.id}>
           <img src={item.image} alt={item.title} className="project__img" />

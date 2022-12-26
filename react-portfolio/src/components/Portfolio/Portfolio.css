@@ -1,7 +1,8 @@
 .project__container {
-  grid-template-columns: repeat(2, max-content);
+  display: flex;
   gap: 3rem;
   justify-content: center;
+  align-items: center;
 }
 
 .project__card {
@@ -26,4 +27,16 @@
 .project__button {
   color: var(--text-color);
   font-size: var(--small-font-size);
+  display: flex;
+  align-items: center;
+  column-gap: 0.25rem;
+}
+
+.project__button-icon {
+  font-size: 1rem;
+  transition: transform 0.4s;
+}
+
+.project__button:hover .project__button-icon {
+  transform: translateX(0.25rem);
 }
