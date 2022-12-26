@@ -39,6 +39,7 @@
 .project__description,
 .project__technologies {
   font-size: var(--smaller-font-size);
+  word-wrap: break-word;
 }
 
 .project__line-break {
