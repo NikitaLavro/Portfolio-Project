@@ -7,26 +7,32 @@ const frontendSkills = [
   {
     name: "React",
     description: "intermediate",
+    key: 1,
   },
   {
     name: "React",
     description: "intermediate",
+    key: 2,
   },
   {
     name: "React",
     description: "intermediate",
+    key: 3,
   },
   {
     name: "React",
     description: "intermediate",
+    key: 4,
   },
   {
     name: "React",
     description: "intermediate",
+    key: 5,
   },
   {
     name: "React",
     description: "intermediate",
+    key: 6,
   },
 ];
 
@@ -37,7 +43,7 @@ const Frontend = () => {
 
       <div className="skills__box">
         {frontendSkills.map((skill) => (
-          <div className="skills__data">
+          <div key={skill.key} className="skills__data">
             <i className="bx bx-badge-check"></i>
             <div>
               <h3 className="skills__name">{skill.name}</h3>
