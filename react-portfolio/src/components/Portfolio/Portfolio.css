@@ -11,10 +11,8 @@
   padding: 1.25rem;
   border-radius: 1rem;
   transition: transform 0.1s ease-in-out;
-}
-
-.project__card:hover {
-  transform: scale(1.05);
+  max-width: 20rem;
+  align-self: center;
 }
 
 .project__img {
