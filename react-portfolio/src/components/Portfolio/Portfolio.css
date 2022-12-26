@@ -50,12 +50,22 @@
   background-color: var(--text-color);
 }
 
-.project__button {
+.project__links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.project__link-button {
   color: var(--text-color);
   font-size: var(--small-font-size);
   display: flex;
   align-items: center;
   column-gap: 0.25rem;
+}
+
+.project__link-git {
+  color: var(--text-color);
+  font-size: 1rem;
 }
 
 .project__button-icon {
