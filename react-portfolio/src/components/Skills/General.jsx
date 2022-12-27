@@ -5,34 +5,36 @@ import "./Skills.css";
 
 const generalSkills = [
   {
-    name: "NPM",
-    description: "Basic",
+    name: "Command Line",
+    description: "Basics",
     key: 1,
   },
   {
-    name: "Console",
-    description: "Basis",
+    name: "NPM",
+    description: "Basics",
     key: 2,
+  },
+  {
+    name: "Git / GitHub",
+    description: "Basics",
+    key: 3,
+  },
+
+  {
+    name: "Linters",
+    description: "ESLint, Prettier",
+    key: 3,
+  },
+
+  {
+    name: "REST",
+    description: "HTTP, JSON, XML",
+    key: 3,
   },
   {
     name: "English",
     description: "Advanced",
     key: 3,
-  },
-  {
-    name: "NPM",
-    description: "intermediate",
-    key: 4,
-  },
-  {
-    name: "NPM",
-    description: "intermediate",
-    key: 5,
-  },
-  {
-    name: "NPM",
-    description: "intermediate",
-    key: 6,
   },
 ];
 

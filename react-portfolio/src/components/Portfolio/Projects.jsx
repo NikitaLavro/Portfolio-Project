@@ -8,7 +8,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 
 // import required modules
-import { Mousewheel, Pagination } from "swiper";
+import { Pagination } from "swiper";
 
 //CSS
 import "./Portfolio.css";
@@ -73,7 +73,8 @@ const Projects = () => {
         pagination={{
           clickable: true,
         }}
-        modules={[Mousewheel, Pagination]}
+        modules={[Pagination]}
+        grabCursor={true}
         mousewheel={false}
         className="mySwiper"
         preventClicks="false"

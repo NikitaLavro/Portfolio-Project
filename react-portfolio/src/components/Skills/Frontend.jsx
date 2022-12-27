@@ -5,34 +5,34 @@ import "./Skills.css";
 
 const frontendSkills = [
   {
-    name: "React",
-    description: "intermediate asdas",
+    name: "HTML",
+    description: "Semantics",
     key: 1,
   },
   {
-    name: "Redux",
-    description: "Redux Toolkit, Redux Saga, RTK Query",
+    name: "CSS",
+    description: "CSS, SCSS/SASS, BEM",
     key: 2,
   },
   {
-    name: "CSS",
-    description: "CSS, SCSS/SASS",
+    name: "JavaScript",
+    description: "ES6+",
     key: 3,
   },
   {
-    name: "JavaScript",
-    description: "sad asdasd  asdasd dasd dasdasdad",
+    name: "React",
+    description: "Main/Advanced concepts, Class/Functional components",
     key: 4,
   },
   {
-    name: "React",
-    description: "intermediate asdasd  adasdd ad ",
+    name: "Redux",
+    description: "Redux Toolkit, Redux Thunk/Saga, RTK Query",
     key: 5,
   },
   {
-    name: "React",
-    description: "asdasdasd adas da dasdasd  adasd as d",
-    key: 6,
+    name: "Typescript",
+    description: "Basics",
+    key: 5,
   },
 ];
 

@@ -7,8 +7,9 @@
 .skills__content {
   background-color: var(--container-color);
   border: 1px solid rgba(0, 0, 0, 0.1);
-  padding: 2rem 4rem;
+  padding: 1rem 1rem;
   border-radius: 1.25rem;
+  width: 45%;
 }
 
 .skills__title {
@@ -21,15 +22,16 @@
 
 .skills__box {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   flex-wrap: wrap;
-  row-gap: 0.5rem;
+  row-gap: 1rem;
 }
 
 .skills__data {
+  width: 40%;
   display: flex;
-  gap: 0.5rem;
-  width: 49%;
+  justify-content: flex-start;
+  gap: 0.1rem;
   line-height: 1rem;
 }
 
