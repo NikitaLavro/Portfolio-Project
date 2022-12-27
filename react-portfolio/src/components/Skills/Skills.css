@@ -1,5 +1,5 @@
 .skills__container {
-  grid-template-columns: repeat(2, 350px);
+  display: flex;
   column-gap: 3rem;
   justify-content: center;
 }
@@ -22,13 +22,8 @@
 .skills__box {
   display: flex;
   justify-content: center;
-  column-gap: 2.5rem;
+  gap: 1rem;
   flex-wrap: wrap;
-}
-
-.skills__group {
-  display: grid;
-  row-gap: 1rem;
 }
 
 .skills__data {
@@ -53,28 +48,24 @@
 
 /*=========== Breakpoints =============*/
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 768px) {
   .skills__container {
-    grid-template-columns: max-content;
-    row-gap: 2rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+  .skills__content {
+    width: 50%;
+    padding: 1rem 2rem;
   }
 }
 
 @media screen and (max-width: 576px) {
-  .skills__container {
-    grid-template-columns: 1fr;
+  .skills__title {
+    font-size: 0.9rem;
   }
-
   .skills__content {
-    padding: 1.5rem;
-  }
-}
-
-@media screen and (max-width: 350px) {
-  .skills__box {
-    column-gap: 1.25rem;
-  }
-  .skills__name {
-    font-size: var(--small-font-size);
+    padding: 0.5rem 1rem;
+    width: 80%;
   }
 }
