@@ -21,7 +21,7 @@ const frontendSkills = [
   },
   {
     name: "React",
-    description: "Main/Advanced concepts, Class/Functional components",
+    description: "Main/Advanced concepts",
     key: 4,
   },
   {
