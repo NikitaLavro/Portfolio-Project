@@ -13,6 +13,11 @@
   transition: transform 0.1s ease-in-out;
   max-width: 20rem;
   align-self: center;
+  transition: transform 0.2s ease-in-out;
+}
+
+.project__card:hover {
+  transform: scale(0.97);
 }
 
 .project__img {
