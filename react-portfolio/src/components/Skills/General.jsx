@@ -6,17 +6,17 @@ import "./Skills.css";
 const generalSkills = [
   {
     name: "NPM",
-    description: "intermediate",
+    description: "Basic",
     key: 1,
   },
   {
-    name: "NPM",
-    description: "intermediate",
+    name: "Console",
+    description: "Basis",
     key: 2,
   },
   {
-    name: "NPM",
-    description: "intermediate",
+    name: "English",
+    description: "Advanced",
     key: 3,
   },
   {

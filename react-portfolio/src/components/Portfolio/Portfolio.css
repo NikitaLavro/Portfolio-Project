@@ -51,6 +51,7 @@
 .project__links {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 1rem;
 }
 
 .project__link-button {
@@ -66,11 +67,11 @@
   font-size: 1rem;
 }
 
-.project__button-icon {
+.project__link__button-icon {
   font-size: 1rem;
   transition: transform 0.4s;
 }
 
-.project__button:hover .project__button-icon {
+.project__link-button:hover .project__link__button-icon {
   transform: translateX(0.25rem);
 }

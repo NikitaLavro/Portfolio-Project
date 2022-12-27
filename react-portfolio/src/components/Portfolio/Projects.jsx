@@ -72,12 +72,13 @@ const Projects = () => {
   return (
     <div className="project__container container">
       <Swiper
-        grabCursor={true}
         pagination={{
           clickable: true,
         }}
         modules={[Pagination]}
         className="mySwiper"
+        preventClicks="false"
+        preventClicksPropagation="false"
         breakpoints={{
           0: {
             slidesPerView: 1,

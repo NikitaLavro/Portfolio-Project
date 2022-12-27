@@ -6,32 +6,32 @@ import "./Skills.css";
 const frontendSkills = [
   {
     name: "React",
-    description: "intermediate",
+    description: "intermediate asdas",
     key: 1,
   },
   {
-    name: "React",
-    description: "intermediate",
+    name: "Redux",
+    description: "Redux Toolkit, Redux Saga, RTK Query",
     key: 2,
   },
   {
-    name: "React",
-    description: "intermediate",
+    name: "CSS",
+    description: "CSS, SCSS/SASS",
     key: 3,
   },
   {
-    name: "React",
-    description: "intermediate",
+    name: "JavaScript",
+    description: "sad asdasd  asdasd dasd dasdasdad",
     key: 4,
   },
   {
     name: "React",
-    description: "intermediate",
+    description: "intermediate asdasd  adasdd ad ",
     key: 5,
   },
   {
     name: "React",
-    description: "intermediate",
+    description: "asdasdasd adas da dasdasd  adasd as d",
     key: 6,
   },
 ];

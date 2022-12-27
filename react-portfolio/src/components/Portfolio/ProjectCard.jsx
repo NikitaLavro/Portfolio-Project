@@ -23,7 +23,8 @@ const ProjectCard = ({ item }) => {
       <div className="project__line-break" />
       <div className="project__links">
         <a href={item.link} className="project__link-button">
-          Demo <i className="bx bx-right-arrow-alt project__button-icon"></i>
+          Demo{" "}
+          <i className="bx bx-right-arrow-alt project__link__button-icon"></i>
         </a>
         <a href={item.link} className="project__link-git">
           <i className="bx uil uil-github-alt"></i>
