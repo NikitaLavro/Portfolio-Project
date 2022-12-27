@@ -39,6 +39,15 @@
   font-size: var(--small-font-size);
 }
 
+.project__technologies-container {
+  height: 3rem;
+  overflow: scroll;
+}
+.project__description-container {
+  height: 6rem;
+  overflow: scroll;
+}
+
 .project__description,
 .project__technologies {
   font-size: var(--smaller-font-size);

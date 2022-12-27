@@ -25,8 +25,7 @@ const projectsData = [
     image: WorkImage,
     title: "test title",
     technologies: ["react", "react", "react"],
-    description:
-      "asdsadasdasdasdasdasd dasdashdkjasd asjdjashdjashdasj jasdhajskhdjas jasdjkasdhaskjd ajsdhjkasdh",
+    description: "asdsadasdasdasdasdasd ßjd ajsdhjkasdh",
     link: "https://github.com/NikitaLavro",
   },
   {
@@ -35,7 +34,7 @@ const projectsData = [
     title: "test title",
     technologies: ["react", "react", "react"],
     description:
-      "asdsadasdasdasdasdasd dasdashdkjasd asjdjashdjashdasj jasdhajskhdjas jasdjkasdhaskjd ajsdhjkasdh",
+      "asdsadasdasdasdasdasd dasdashdkjasd asjdjashdjashdasj jasdhajskhdjas jasdjkasdhaskjd ajsdhjkasdh asdsadasdasdasdasdasd dasdashdkjasd asjdjashdjashdasj jasdhajskhdjas jasdjkasdhaskjd ajsdhjkasdh",
     link: "https://github.com/NikitaLavro",
   },
   {
@@ -75,7 +74,7 @@ const Projects = () => {
           clickable: true,
         }}
         modules={[Mousewheel, Pagination]}
-        mousewheel={true}
+        mousewheel={false}
         className="mySwiper"
         preventClicks="false"
         preventClicksPropagation="false"
