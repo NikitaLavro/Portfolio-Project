@@ -14,7 +14,11 @@ import { Pagination } from "swiper";
 import "./Portfolio.css";
 
 //Images
-import WorkImage from "../../assets/portrait.jpg";
+import IMDb from "../../assets/ProjectImages/IMDb.jpg";
+import RealEstate from "../../assets/ProjectImages/RealEstate.jpg";
+import Note from "../../assets/ProjectImages/Note.jpg";
+import Cart from "../../assets/ProjectImages/Cart.png";
+import Todo from "../../assets/ProjectImages/Todo.png";
 
 //Components
 import ProjectCard from "./ProjectCard";
@@ -22,47 +26,68 @@ import ProjectCard from "./ProjectCard";
 const projectsData = [
   {
     id: 1,
-    image: WorkImage,
-    title: "test title",
-    technologies: ["react", "react", "react"],
-    description: "asdsadasdasdasdasdasd ßjd ajsdhjkasdh",
-    link: "https://github.com/NikitaLavro",
+    image: IMDb,
+    title: "React IMDb Movie App",
+    technologies: ["React", "React-Router", "Styles Components, IMBb API"],
+    description:
+      "A Movie App that allows you to search and view the movies with a help of public IMDb API.",
+    gitLink: "https://github.com/NikitaLavro/IMDb-Movie-App",
+    netlifyLink: "https://react-imdb-movie-app.netlify.app/",
   },
   {
     id: 2,
-    image: WorkImage,
-    title: "test title",
-    technologies: ["react", "react", "react"],
+    image: RealEstate,
+    title: "Real Estate App",
+    technologies: [
+      "Next.JS",
+      "Chakra UI",
+      "Rapid API",
+      "NProgress",
+      "React-Horizontal-Scrolling-Menu, Millify",
+    ],
     description:
-      "asdsadasdasdasdasdasd dasdashdkjasd asjdjashdjashdasj jasdhajskhdjas jasdjkasdhaskjd ajsdhjkasdh asdsadasdasdasdasdasd dasdashdkjasd asjdjashdjashdasj jasdhajskhdjas jasdjkasdhaskjd ajsdhjkasdh",
-    link: "https://github.com/NikitaLavro",
+      "Next.JS real estate app that uses Bayut API to fetch data and allows you to browse and filter apartments according to filter inputs.",
+    gitLink: "https://github.com/NikitaLavro/Real-Estate-App",
+    netlifyLink: "https://nexjs-real-estate-app.netlify.app/",
   },
   {
     id: 3,
-    image: WorkImage,
-    title: "test title",
-    technologies: ["react", "react", "react"],
+    image: Note,
+    title: "TS-React Note-Taking App",
+    technologies: [
+      "TypeScript",
+      "React",
+      "React-Router",
+      "React-Select",
+      "Bootstrap",
+      "React-Markdown",
+      "uuidV4",
+    ],
     description:
-      "asdsadasdasdasdasdasd dasdashdkjasd asjdjashdjashdasj jasdhajskhdjas jasdjkasdhaskjd ajsdhjkasdh",
-    link: "https://github.com/NikitaLavro",
+      "A note-taking app that allows you to create and edit notes. You can filter notes by title as well as by tags.",
+    gitLink:
+      "https://github.com/NikitaLavro/TS-React-Note-Taking-App/tree/master/note-ts-app",
+    netlifyLink: "https://ts-react-note-taking-app.netlify.app/",
   },
   {
     id: 4,
-    image: WorkImage,
-    title: "test title",
-    technologies: ["react", "react", "react"],
+    image: Cart,
+    title: "Redux Cart Items App",
+    technologies: ["React", "Redux Toolkit", "Redux Thunk"],
     description:
-      "asdsadasdasdasdasdasd dasdashdkjasd asjdjashdjashdasj jasdhajskhdjas jasdjkasdhaskjd ajsdhjkasdh",
-    link: "https://github.com/NikitaLavro",
+      "A cart app that allows you to manipulate your bag items. The app keeps track of the global state with a help of Redux.",
+    gitLink: "https://github.com/NikitaLavro/Redux-Cart-Items-App",
+    netlifyLink: "https://react-redux-cart-items-app.netlify.app/",
   },
   {
     id: 5,
-    image: WorkImage,
-    title: "test title",
-    technologies: ["react", "react", "react"],
+    image: Todo,
+    title: "TS-React Draggable Todo App",
+    technologies: ["Typescript", "React", "React-Beautiful-DND"],
     description:
-      "asdsadasdasdasdasdasd dasdashdkjasd asjdjashdjashdasj jasdhajskhdjas jasdjkasdhaskjd ajsdhjkasdh",
-    link: "https://github.com/NikitaLavro",
+      "A Typescript-React app that allows you to create todos and drag/drop them between active and completed containers.",
+    gitLink: "https://github.com/NikitaLavro/TS-React-Draggable-Todo-App",
+    netlifyLink: "https://ts-react-draggable-todo-app.netlify.app/",
   },
 ];
 
@@ -80,7 +105,7 @@ const Projects = () => {
         preventClicks="false"
         preventClicksPropagation="false"
         breakpoints={{
-          0: {
+          100: {
             slidesPerView: 1,
             spaceBetween: 10,
           },
@@ -97,8 +122,8 @@ const Projects = () => {
         }}
       >
         {projectsData.map((item) => (
-          <SwiperSlide>
-            <ProjectCard key={item.id} item={item} />
+          <SwiperSlide key={item.id}>
+            <ProjectCard item={item} />
           </SwiperSlide>
         ))}
       </Swiper>

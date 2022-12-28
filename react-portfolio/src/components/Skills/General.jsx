@@ -23,18 +23,18 @@ const generalSkills = [
   {
     name: "Linters",
     description: "ESLint, Prettier",
-    key: 3,
+    key: 4,
   },
 
   {
     name: "REST",
     description: "HTTP, JSON, XML",
-    key: 3,
+    key: 5,
   },
   {
     name: "English",
     description: "Advanced",
-    key: 3,
+    key: 6,
   },
 ];
 

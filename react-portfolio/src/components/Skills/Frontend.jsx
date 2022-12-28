@@ -32,7 +32,7 @@ const frontendSkills = [
   {
     name: "Typescript",
     description: "Basics",
-    key: 5,
+    key: 6,
   },
 ];
 
