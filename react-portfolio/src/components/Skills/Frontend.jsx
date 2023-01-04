@@ -21,7 +21,7 @@ const frontendSkills = [
   },
   {
     name: "React",
-    description: "Main/Advanced concepts",
+    description: "Main/Advanced concepts, Next.JS basics",
     key: 4,
   },
   {
