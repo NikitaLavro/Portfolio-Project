@@ -32,9 +32,14 @@ const generalSkills = [
     key: 5,
   },
   {
+    name: "Principles",
+    description: "SOLID, DRY, KISS",
+    key: 6,
+  },
+  {
     name: "English",
     description: "Advanced",
-    key: 6,
+    key: 7,
   },
 ];
 

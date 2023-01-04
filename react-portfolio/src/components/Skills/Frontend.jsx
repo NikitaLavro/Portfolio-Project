@@ -11,7 +11,7 @@ const frontendSkills = [
   },
   {
     name: "CSS",
-    description: "CSS, SCSS/SASS, BEM",
+    description: "CSS3, SCSS/SASS, BEM",
     key: 2,
   },
   {
@@ -21,7 +21,7 @@ const frontendSkills = [
   },
   {
     name: "React",
-    description: "Main/Advanced concepts, Next.JS basics",
+    description: "Main/Advanced concepts, React-Router, Next.JS basics",
     key: 4,
   },
   {
