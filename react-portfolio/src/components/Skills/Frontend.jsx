@@ -26,7 +26,7 @@ const frontendSkills = [
   },
   {
     name: "Redux",
-    description: "Redux Toolkit, Redux Thunk/Saga, RTK Query",
+    description: "Redux Toolkit, Redux Thunk, RTK Query",
     key: 5,
   },
   {

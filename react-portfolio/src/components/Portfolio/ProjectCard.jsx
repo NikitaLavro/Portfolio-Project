@@ -24,11 +24,15 @@ const ProjectCard = ({ item }) => {
       </div>
       <div className="project__line-break" />
       <div className="project__links">
-        <a href={item.netlifyLink} className="project__link-button">
+        <a
+          href={item.netlifyLink}
+          target="_blank"
+          className="project__link-button"
+        >
           Demo{" "}
           <i className="bx bx-right-arrow-alt project__link__button-icon"></i>
         </a>
-        <a href={item.gitLink} className="project__link-git">
+        <a href={item.gitLink} target="_blank" className="project__link-git">
           <i className="bx uil uil-github-alt"></i>
         </a>
       </div>

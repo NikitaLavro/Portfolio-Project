@@ -6,7 +6,7 @@ import "./Skills.css";
 const generalSkills = [
   {
     name: "Command Line",
-    description: "Basics",
+    description: "Directory and File Traversal/Deleting/Editing",
     key: 1,
   },
   {
@@ -28,7 +28,7 @@ const generalSkills = [
 
   {
     name: "REST",
-    description: "HTTP, JSON, XML",
+    description: "HTTP (TLS/SSL), JSON, CORS",
     key: 5,
   },
   {
