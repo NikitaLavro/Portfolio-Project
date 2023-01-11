@@ -16,12 +16,13 @@ const frontendSkills = [
   },
   {
     name: "JavaScript",
-    description: "ES6+",
+    description: "ES6+, Web APIs",
     key: 3,
   },
   {
     name: "React",
-    description: "Main/Advanced concepts, React-Router, Next.JS basics",
+    description:
+      "Main/Advanced concepts, React-Router, Next.JS basics,  React Query",
     key: 4,
   },
   {
