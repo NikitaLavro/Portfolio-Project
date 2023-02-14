@@ -41,6 +41,11 @@ const generalSkills = [
     description: "Advanced",
     key: 7,
   },
+  {
+    name: "MVC/MVVM",
+    description: "Basics",
+    key: 8,
+  },
 ];
 
 const General = () => {
