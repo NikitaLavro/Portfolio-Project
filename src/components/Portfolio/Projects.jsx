@@ -19,6 +19,7 @@ import RealEstate from "../../assets/ProjectImages/RealEstate.jpg";
 import Note from "../../assets/ProjectImages/Note.jpg";
 import Cart from "../../assets/ProjectImages/Cart.png";
 import Todo from "../../assets/ProjectImages/Todo.png";
+import Travel from "../../assets/ProjectImages/Travel.png";
 
 //Components
 import ProjectCard from "./ProjectCard";
@@ -26,6 +27,24 @@ import ProjectCard from "./ProjectCard";
 const projectsData = [
   {
     id: 1,
+    image: Travel,
+    title: "Node.JS Tours App",
+    technologies: [
+      "Node.JS",
+      "JWT",
+      "Express",
+      "MongoDB",
+      "Mongoose",
+      "Stripe",
+      "Pug",
+      "others...",
+    ],
+    description: `A Node.js (express) application with JWT authorization/authentication and Stripe implementation that allows you to browse and book tours. It uses MongoDB (Mongoose) as a database and includes fast and scalable RESTful API (filters, sorts, pagination, etc...). It also includes server-side rendering with Pug templates, sending emails & uploading files, geospatial data, encryption, sanitization, rate limiting.`,
+    gitLink: "https://github.com/NikitaLavro/Node.JS-Tours-Project",
+    netlifyLink: "https://tours-lavro.herokuapp.com",
+  },
+  {
+    id: 2,
     image: IMDb,
     title: "React IMDb Movie App",
     technologies: ["React", "React-Router", "Styles Components, IMBb API"],
@@ -35,7 +54,7 @@ const projectsData = [
     netlifyLink: "https://react-imdb-movie-app.netlify.app/",
   },
   {
-    id: 2,
+    id: 3,
     image: RealEstate,
     title: "Real Estate App",
     technologies: [
@@ -51,7 +70,7 @@ const projectsData = [
     netlifyLink: "https://nexjs-real-estate-app.netlify.app/",
   },
   {
-    id: 3,
+    id: 4,
     image: Note,
     title: "TS-React Note-Taking App",
     technologies: [
@@ -70,7 +89,7 @@ const projectsData = [
     netlifyLink: "https://ts-react-note-taking-app.netlify.app/",
   },
   {
-    id: 4,
+    id: 5,
     image: Cart,
     title: "Redux Cart Items App",
     technologies: ["React", "Redux Toolkit", "Redux Thunk"],
@@ -80,7 +99,7 @@ const projectsData = [
     netlifyLink: "https://react-redux-cart-items-app.netlify.app/",
   },
   {
-    id: 5,
+    id: 6,
     image: Todo,
     title: "TS-React Draggable Todo App",
     technologies: ["Typescript", "React", "React-Beautiful-DND"],
